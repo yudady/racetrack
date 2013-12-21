@@ -1,0 +1,13 @@
+grails create-app racetrack
+grails -Dserver.port=9090 run-app 
+grails create-domain-class com.acme.Race
+grails create-domain-class  Registration
+grails create-controller Race
+grails create-controller Registration
+
+
+
+
+
+
+create-controller Race 
